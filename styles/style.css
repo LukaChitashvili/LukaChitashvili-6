@@ -1,12 +1,19 @@
 body{
 padding-top: 21px;
 padding-left: 137px;
-background-color: #F5F5F5;
-
+background: #F5F5F5;
 }
 
 
 nav{
+
+
+
+
+}
+
+
+header{
 
 
 
@@ -42,7 +49,7 @@ margin-top: -22px;
 
 .container{
 margin: 0 auto;
-width: 5000px;
+width: 1400px;
 margin-left: 35px;
 
 }
@@ -58,10 +65,35 @@ color: #000000s;
 margin-top: 42px;
 }
 
+
+
+.pic11{
+
+width: 425px;
+
+}
+
+.pic22{
+
+width: 425px;
+
+}
+
+.pic33{
+
+width: 425px;
+
+}
+
+
+
+
+
 .pic1{
 
 display: inline-block;
 margin-top: 27px;
+position: relative;
 }
 
 
@@ -69,24 +101,124 @@ margin-top: 27px;
 
 display: inline-block;
 margin-left: 40px;
+position: relative;
 }
 
 .pic3{
 
 display: inline-block;
 margin-left: 40px;
+position: relative;
+}
+
+
+.pic1::before {
+  content: "Dolore magna alicua";
+  position: absolute;
+padding-top: 32px;
+padding-left: 41px;
+font-family: Roboto, sans-serif;
+font-size: 20px;
+font-weight: 700;
+line-height: 23px;
+letter-spacing: 0em;
+text-align: left;
+color: #FFFFFF;
+}
+
+
+.pic2::before {
+  content: "Dolore magna alicua";
+  position: absolute;
+padding-top: 32px;
+padding-left: 41px;
+font-family: Roboto, sans-serif;
+font-size: 20px;
+font-weight: 700;
+line-height: 23px;
+letter-spacing: 0em;
+text-align: left;
+color: #FFFFFF;
+}
+
+
+.pic3::before {
+  content: "Dolore magna alicua";
+  position: absolute;
+padding-top: 32px;
+padding-left: 41px;
+font-family: Roboto, sans-serif;
+font-size: 20px;
+font-weight: 700;
+line-height: 23px;
+letter-spacing: 0em;
+text-align: left;
+color: #FFFFFF;
 }
 
 
 
-
-
-
-
-
-
-
+.box1 {
+  width: 425px;
+  height: 171px;
+  background-color:#FFFFFF;
+  display: inline-block;
+  padding-top: 68px;
+  padding-left: 37px;
+  font-family: Roboto, sans-serif;
+font-size: 14px;
+font-weight: 700;
+line-height: 12px;
+letter-spacing: 0em;
+text-align: left;
+color: #8A8787;
 ;
-
 }
 
+.box2{
+  width: 425px;
+  height: 171px;
+  background-color:#FFFFFF;
+  display: inline-block;
+  margin-left: 40px;
+   padding-top: 68px;
+  padding-left: 37px;
+  font-family: Roboto, sans-serif;
+font-size: 14px;
+font-weight: 700;
+line-height: 12px;
+letter-spacing: 0em;
+text-align: left;
+color: #8A8787;
+;
+}
+
+.box3 {
+  width: 425px;
+  height: 171px;
+  background-color:#FFFFFF;
+  display: inline-block;
+  margin-left: 40px;
+   padding-top: 68px;
+  padding-left: 37px;
+  font-family: Roboto, sans-serif;
+font-size: 14px;
+font-weight: 700;
+line-height: 12px;
+letter-spacing: 0em;
+text-align: left;
+color: #8A8787;
+;
+}
+
+h3{
+
+margin-top: 17px;
+font-family: Roboto, sans-serif;
+font-size: 14px;
+font-weight: 700;
+line-height: 12px;
+letter-spacing: 0em;
+text-align: left;
+color: #8A8787;
+}
