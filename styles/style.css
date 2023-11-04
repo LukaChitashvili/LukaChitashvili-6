@@ -14,10 +14,10 @@ nav{
 
 
 header{
-
-
-
-
+background-color: cyan;
+width: 525px;
+position: fixed;
+z-index: 1;
 }
 
 li{
@@ -62,7 +62,7 @@ line-height: 28px;
 letter-spacing: 0em;
 text-align: left;
 color: #000000s;
-margin-top: 42px;
+margin-top: 90px;
 }
 
 
@@ -160,7 +160,7 @@ color: #FFFFFF;
 
 .box1 {
   width: 425px;
-  height: 171px;
+  height: 190px;
   background-color:#FFFFFF;
   display: inline-block;
   padding-top: 68px;
@@ -177,7 +177,7 @@ color: #8A8787;
 
 .box2{
   width: 425px;
-  height: 171px;
+  height: 190px;
   background-color:#FFFFFF;
   display: inline-block;
   margin-left: 40px;
@@ -190,12 +190,13 @@ line-height: 12px;
 letter-spacing: 0em;
 text-align: left;
 color: #8A8787;
+
 ;
 }
 
 .box3 {
   width: 425px;
-  height: 171px;
+  height: 190px;
   background-color:#FFFFFF;
   display: inline-block;
   margin-left: 40px;
@@ -221,4 +222,97 @@ line-height: 12px;
 letter-spacing: 0em;
 text-align: left;
 color: #8A8787;
+}
+
+.title2{
+margin-top:70px;
+
+
+}
+
+.image1{
+display:  inline-block;
+margin-top: 22px;
+position: relative;
+width: 758px;
+height: 430px;
+
+}
+
+
+.image2{
+display: inline-block;
+margin-top: 42px;
+width: 758px;
+height: 430px;
+
+}
+
+
+.container2{
+width: 1300px;
+margin: 0 auto;
+margin-right: 100px;
+height: 1560px;
+margin-top: 30px;
+}
+
+
+.left-side{
+
+display: inline-block;
+width: 758px;
+vertical-align: top;
+margin-right: 45px;
+}
+
+.right-side{
+display: inline-block;
+width: 362px;
+vertical-align: top;
+}
+
+.left-side img{
+margin-bottom: 42px;
+
+
+
+}
+
+.right-side img{
+margin-bottom:98px ;
+
+
+}
+
+.image00{
+position: relative;
+
+
+}
+
+.image00::before{
+position: absolute;
+content: "Morbi eleifend a libero";
+color:#FFFFFF ;
+font-family: Roboto, sans-serif;
+font-size: 24px;
+font-weight: 700;
+line-height: 23px;
+letter-spacing: 0em;
+text-align: left;
+padding-top: 203px;
+padding-left: 240px;
+}
+
+.logo2{
+padding-top: 11px;
+display: inline-block;
+
+}
+
+h6{
+padding-left: 11px;
+padding-top: 14px;
+display: inline-block;
 }
